@@ -1,0 +1,51 @@
+Ia_fraction: null
+batch_size: 32
+categorical: false
+categorical_max_per_type: 2000
+categorical_min_per_type: 200
+class_balanced: true
+from_json: false
+has_ids: true
+ids_path: ./output_path/0_5_Ia_split_heatmaps_ids.hdf5
+lcdata_paths:
+- plasticc_train_lightcurves.csv.gz
+metadata_paths:
+- plasticc_train_metadata.csv.gz
+mode: train
+num_epochs: 400
+num_mjd_bins: 180
+num_wavelength_bins: 32
+output_path: scone/output_dir
+# added by FBB
+heatmaps_path: scone/output_dir
+save_to_json: true
+sn_type_id_to_name:
+  42: SNII
+  52: SNIax
+  62: SNIbc
+  64: KN
+  67: SNIa-91bg
+  90: SNIa
+  95: SLSN-1
+train_proportion: 0.8
+trained_model: /path/to/trained/model
+val_proportion: 0.1
+with_z: false
+
+### FILE LOCATIONS ###
+
+#metadata_paths: # paths to metadata files
+#  - "plasticc_train_metadata.csv.gz"
+#lcdata_paths: # paths to observation data files
+#  - "plasticc_train_lightcurves.csv.gz"
+
+ids_path: "scone/output_dir/0_5_Ia_split_heatmaps_ids.hdf5" # path to ids file (output of data_cuts.py), will be in output_path
+output_path: "scone/output_dir" # location of desired output directory for ids file + heatmaps
+
+### HEATMAP SIZE PARAMS ###
+# HEATMAP HEIGHT: wavelength_range / wavelength_interval. wavelength_range=7100 angstroms (3000 -> 10100), set in create_heatmaps.py
+# HEATMAP WIDTH: mjd_range / mjd_interval. mjd_range=180 (peak_mjd-50 -> peak_mjd+130), set in create_heatmaps.py
+num_wavelength_bins: 32
+num_mjd_bins: 180
+
+
