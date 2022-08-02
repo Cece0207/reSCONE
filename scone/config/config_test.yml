@@ -8,312 +8,136 @@ from_json: false
 has_ids: true
 heatmaps_path: output_dir
 ids_path: scone/output_dir/0_5_Ia_split_heatmaps_ids.hdf5
-lcdata_paths:
-- input/plasticc_train_lightcurves_000.csv
-- input/plasticc_train_lightcurves_001.csv
-- input/plasticc_train_lightcurves_002.csv
-- input/plasticc_train_lightcurves_003.csv
-- input/plasticc_train_lightcurves_004.csv
-- input/plasticc_train_lightcurves_005.csv
-- input/plasticc_train_lightcurves_006.csv
-- input/plasticc_train_lightcurves_007.csv
-- input/plasticc_train_lightcurves_008.csv
-- input/plasticc_train_lightcurves_009.csv
-- input/plasticc_train_lightcurves_010.csv
-- input/plasticc_train_lightcurves_011.csv
-- input/plasticc_train_lightcurves_012.csv
-- input/plasticc_train_lightcurves_013.csv
-- input/plasticc_train_lightcurves_014.csv
-- input/plasticc_train_lightcurves_015.csv
-- input/plasticc_train_lightcurves_016.csv
-- input/plasticc_train_lightcurves_017.csv
-- input/plasticc_train_lightcurves_018.csv
-- input/plasticc_train_lightcurves_019.csv
-- input/plasticc_train_lightcurves_020.csv
-- input/plasticc_train_lightcurves_021.csv
-- input/plasticc_train_lightcurves_022.csv
-- input/plasticc_train_lightcurves_023.csv
-- input/plasticc_train_lightcurves_024.csv
-- input/plasticc_train_lightcurves_025.csv
-- input/plasticc_train_lightcurves_026.csv
-- input/plasticc_train_lightcurves_027.csv
-- input/plasticc_train_lightcurves_028.csv
-- input/plasticc_train_lightcurves_029.csv
-- input/plasticc_train_lightcurves_030.csv
-- input/plasticc_train_lightcurves_031.csv
-- input/plasticc_train_lightcurves_032.csv
-- input/plasticc_train_lightcurves_033.csv
-- input/plasticc_train_lightcurves_034.csv
-- input/plasticc_train_lightcurves_035.csv
-- input/plasticc_train_lightcurves_036.csv
-- input/plasticc_train_lightcurves_037.csv
-- input/plasticc_train_lightcurves_038.csv
-- input/plasticc_train_lightcurves_039.csv
-- input/plasticc_train_lightcurves_040.csv
-- input/plasticc_train_lightcurves_041.csv
-- input/plasticc_train_lightcurves_042.csv
-- input/plasticc_train_lightcurves_043.csv
-- input/plasticc_train_lightcurves_044.csv
-- input/plasticc_train_lightcurves_045.csv
-- input/plasticc_train_lightcurves_046.csv
-- input/plasticc_train_lightcurves_047.csv
-- input/plasticc_train_lightcurves_048.csv
-- input/plasticc_train_lightcurves_049.csv
-- input/plasticc_train_lightcurves_050.csv
-- input/plasticc_train_lightcurves_051.csv
-- input/plasticc_train_lightcurves_052.csv
-- input/plasticc_train_lightcurves_053.csv
-- input/plasticc_train_lightcurves_054.csv
-- input/plasticc_train_lightcurves_055.csv
-- input/plasticc_train_lightcurves_056.csv
-- input/plasticc_train_lightcurves_057.csv
-- input/plasticc_train_lightcurves_058.csv
-- input/plasticc_train_lightcurves_059.csv
-- input/plasticc_train_lightcurves_060.csv
-- input/plasticc_train_lightcurves_061.csv
-- input/plasticc_train_lightcurves_062.csv
-- input/plasticc_train_lightcurves_063.csv
-- input/plasticc_train_lightcurves_064.csv
-- input/plasticc_train_lightcurves_065.csv
-- input/plasticc_train_lightcurves_066.csv
-- input/plasticc_train_lightcurves_067.csv
-- input/plasticc_train_lightcurves_068.csv
-- input/plasticc_train_lightcurves_069.csv
-- input/plasticc_train_lightcurves_070.csv
-- input/plasticc_train_lightcurves_071.csv
-- input/plasticc_train_lightcurves_072.csv
-- input/plasticc_train_lightcurves_073.csv
-- input/plasticc_train_lightcurves_074.csv
-- input/plasticc_train_lightcurves_075.csv
-- input/plasticc_train_lightcurves_076.csv
-- input/plasticc_train_lightcurves_077.csv
-- input/plasticc_train_lightcurves_078.csv
-- input/plasticc_train_lightcurves_079.csv
-- input/plasticc_train_lightcurves_080.csv
-- input/plasticc_train_lightcurves_081.csv
-- input/plasticc_train_lightcurves_082.csv
-- input/plasticc_train_lightcurves_083.csv
-- input/plasticc_train_lightcurves_084.csv
-- input/plasticc_train_lightcurves_085.csv
-- input/plasticc_train_lightcurves_086.csv
-- input/plasticc_train_lightcurves_087.csv
-- input/plasticc_train_lightcurves_088.csv
-- input/plasticc_train_lightcurves_089.csv
-- input/plasticc_train_lightcurves_090.csv
-- input/plasticc_train_lightcurves_091.csv
-- input/plasticc_train_lightcurves_092.csv
-- input/plasticc_train_lightcurves_093.csv
-- input/plasticc_train_lightcurves_094.csv
-- input/plasticc_train_lightcurves_095.csv
-- input/plasticc_train_lightcurves_096.csv
-- input/plasticc_train_lightcurves_097.csv
-- input/plasticc_train_lightcurves_098.csv
-- input/plasticc_train_lightcurves_099.csv
-- input/plasticc_train_lightcurves_100.csv
-- input/plasticc_train_lightcurves_101.csv
-- input/plasticc_train_lightcurves_102.csv
-- input/plasticc_train_lightcurves_103.csv
-- input/plasticc_train_lightcurves_104.csv
-- input/plasticc_train_lightcurves_105.csv
-- input/plasticc_train_lightcurves_106.csv
-- input/plasticc_train_lightcurves_107.csv
-- input/plasticc_train_lightcurves_108.csv
-- input/plasticc_train_lightcurves_109.csv
-- input/plasticc_train_lightcurves_110.csv
-- input/plasticc_train_lightcurves_111.csv
-- input/plasticc_train_lightcurves_112.csv
-- input/plasticc_train_lightcurves_113.csv
-- input/plasticc_train_lightcurves_114.csv
-- input/plasticc_train_lightcurves_115.csv
-- input/plasticc_train_lightcurves_116.csv
-- input/plasticc_train_lightcurves_117.csv
-- input/plasticc_train_lightcurves_118.csv
-- input/plasticc_train_lightcurves_119.csv
-- input/plasticc_train_lightcurves_120.csv
-- input/plasticc_train_lightcurves_121.csv
-- input/plasticc_train_lightcurves_122.csv
-- input/plasticc_train_lightcurves_123.csv
-- input/plasticc_train_lightcurves_124.csv
-- input/plasticc_train_lightcurves_125.csv
-- input/plasticc_train_lightcurves_126.csv
-- input/plasticc_train_lightcurves_127.csv
-- input/plasticc_train_lightcurves_128.csv
-- input/plasticc_train_lightcurves_129.csv
-- input/plasticc_train_lightcurves_130.csv
-- input/plasticc_train_lightcurves_131.csv
-- input/plasticc_train_lightcurves_132.csv
-- input/plasticc_train_lightcurves_133.csv
-- input/plasticc_train_lightcurves_134.csv
-- input/plasticc_train_lightcurves_135.csv
-- input/plasticc_train_lightcurves_136.csv
-- input/plasticc_train_lightcurves_137.csv
-- input/plasticc_train_lightcurves_138.csv
-- input/plasticc_train_lightcurves_139.csv
-- input/plasticc_train_lightcurves_140.csv
-- input/plasticc_train_lightcurves_141.csv
-- input/plasticc_train_lightcurves_142.csv
-- input/plasticc_train_lightcurves_143.csv
-- input/plasticc_train_lightcurves_144.csv
-metadata_paths:
-- input/plasticc_train_metadata_000.csv
-- input/plasticc_train_metadata_001.csv
-- input/plasticc_train_metadata_002.csv
-- input/plasticc_train_metadata_003.csv
-- input/plasticc_train_metadata_004.csv
-- input/plasticc_train_metadata_005.csv
-- input/plasticc_train_metadata_006.csv
-- input/plasticc_train_metadata_007.csv
-- input/plasticc_train_metadata_008.csv
-- input/plasticc_train_metadata_009.csv
-- input/plasticc_train_metadata_010.csv
-- input/plasticc_train_metadata_011.csv
-- input/plasticc_train_metadata_012.csv
-- input/plasticc_train_metadata_013.csv
-- input/plasticc_train_metadata_014.csv
-- input/plasticc_train_metadata_015.csv
-- input/plasticc_train_metadata_016.csv
-- input/plasticc_train_metadata_017.csv
-- input/plasticc_train_metadata_018.csv
-- input/plasticc_train_metadata_019.csv
-- input/plasticc_train_metadata_020.csv
-- input/plasticc_train_metadata_021.csv
-- input/plasticc_train_metadata_022.csv
-- input/plasticc_train_metadata_023.csv
-- input/plasticc_train_metadata_024.csv
-- input/plasticc_train_metadata_025.csv
-- input/plasticc_train_metadata_026.csv
-- input/plasticc_train_metadata_027.csv
-- input/plasticc_train_metadata_028.csv
-- input/plasticc_train_metadata_029.csv
-- input/plasticc_train_metadata_030.csv
-- input/plasticc_train_metadata_031.csv
-- input/plasticc_train_metadata_032.csv
-- input/plasticc_train_metadata_033.csv
-- input/plasticc_train_metadata_034.csv
-- input/plasticc_train_metadata_035.csv
-- input/plasticc_train_metadata_036.csv
-- input/plasticc_train_metadata_037.csv
-- input/plasticc_train_metadata_038.csv
-- input/plasticc_train_metadata_039.csv
-- input/plasticc_train_metadata_040.csv
-- input/plasticc_train_metadata_041.csv
-- input/plasticc_train_metadata_042.csv
-- input/plasticc_train_metadata_043.csv
-- input/plasticc_train_metadata_044.csv
-- input/plasticc_train_metadata_045.csv
-- input/plasticc_train_metadata_046.csv
-- input/plasticc_train_metadata_047.csv
-- input/plasticc_train_metadata_048.csv
-- input/plasticc_train_metadata_049.csv
-- input/plasticc_train_metadata_050.csv
-- input/plasticc_train_metadata_051.csv
-- input/plasticc_train_metadata_052.csv
-- input/plasticc_train_metadata_053.csv
-- input/plasticc_train_metadata_054.csv
-- input/plasticc_train_metadata_055.csv
-- input/plasticc_train_metadata_056.csv
-- input/plasticc_train_metadata_057.csv
-- input/plasticc_train_metadata_058.csv
-- input/plasticc_train_metadata_059.csv
-- input/plasticc_train_metadata_060.csv
-- input/plasticc_train_metadata_061.csv
-- input/plasticc_train_metadata_062.csv
-- input/plasticc_train_metadata_063.csv
-- input/plasticc_train_metadata_064.csv
-- input/plasticc_train_metadata_065.csv
-- input/plasticc_train_metadata_066.csv
-- input/plasticc_train_metadata_067.csv
-- input/plasticc_train_metadata_068.csv
-- input/plasticc_train_metadata_069.csv
-- input/plasticc_train_metadata_070.csv
-- input/plasticc_train_metadata_071.csv
-- input/plasticc_train_metadata_072.csv
-- input/plasticc_train_metadata_073.csv
-- input/plasticc_train_metadata_074.csv
-- input/plasticc_train_metadata_075.csv
-- input/plasticc_train_metadata_076.csv
-- input/plasticc_train_metadata_077.csv
-- input/plasticc_train_metadata_078.csv
-- input/plasticc_train_metadata_079.csv
-- input/plasticc_train_metadata_080.csv
-- input/plasticc_train_metadata_081.csv
-- input/plasticc_train_metadata_082.csv
-- input/plasticc_train_metadata_083.csv
-- input/plasticc_train_metadata_084.csv
-- input/plasticc_train_metadata_085.csv
-- input/plasticc_train_metadata_086.csv
-- input/plasticc_train_metadata_087.csv
-- input/plasticc_train_metadata_088.csv
-- input/plasticc_train_metadata_089.csv
-- input/plasticc_train_metadata_090.csv
-- input/plasticc_train_metadata_091.csv
-- input/plasticc_train_metadata_092.csv
-- input/plasticc_train_metadata_093.csv
-- input/plasticc_train_metadata_094.csv
-- input/plasticc_train_metadata_095.csv
-- input/plasticc_train_metadata_096.csv
-- input/plasticc_train_metadata_097.csv
-- input/plasticc_train_metadata_098.csv
-- input/plasticc_train_metadata_099.csv
-- input/plasticc_train_metadata_100.csv
-- input/plasticc_train_metadata_101.csv
-- input/plasticc_train_metadata_102.csv
-- input/plasticc_train_metadata_103.csv
-- input/plasticc_train_metadata_104.csv
-- input/plasticc_train_metadata_105.csv
-- input/plasticc_train_metadata_106.csv
-- input/plasticc_train_metadata_107.csv
-- input/plasticc_train_metadata_108.csv
-- input/plasticc_train_metadata_109.csv
-- input/plasticc_train_metadata_110.csv
-- input/plasticc_train_metadata_111.csv
-- input/plasticc_train_metadata_112.csv
-- input/plasticc_train_metadata_113.csv
-- input/plasticc_train_metadata_114.csv
-- input/plasticc_train_metadata_115.csv
-- input/plasticc_train_metadata_116.csv
-- input/plasticc_train_metadata_117.csv
-- input/plasticc_train_metadata_118.csv
-- input/plasticc_train_metadata_119.csv
-- input/plasticc_train_metadata_120.csv
-- input/plasticc_train_metadata_121.csv
-- input/plasticc_train_metadata_122.csv
-- input/plasticc_train_metadata_123.csv
-- input/plasticc_train_metadata_124.csv
-- input/plasticc_train_metadata_125.csv
-- input/plasticc_train_metadata_126.csv
-- input/plasticc_train_metadata_127.csv
-- input/plasticc_train_metadata_128.csv
-- input/plasticc_train_metadata_129.csv
-- input/plasticc_train_metadata_130.csv
-- input/plasticc_train_metadata_131.csv
-- input/plasticc_train_metadata_132.csv
-- input/plasticc_train_metadata_133.csv
-- input/plasticc_train_metadata_134.csv
-- input/plasticc_train_metadata_135.csv
-- input/plasticc_train_metadata_136.csv
-- input/plasticc_train_metadata_137.csv
-- input/plasticc_train_metadata_138.csv
-- input/plasticc_train_metadata_139.csv
-- input/plasticc_train_metadata_140.csv
-- input/plasticc_train_metadata_141.csv
-- input/plasticc_train_metadata_142.csv
-- input/plasticc_train_metadata_143.csv
-- input/plasticc_train_metadata_144.csv
+lcdata_paths: [input/plasticc_train_lightcurves_000.csv, input/plasticc_train_lightcurves_001.csv,
+  input/plasticc_train_lightcurves_002.csv, input/plasticc_train_lightcurves_003.csv,
+  input/plasticc_train_lightcurves_004.csv, input/plasticc_train_lightcurves_005.csv,
+  input/plasticc_train_lightcurves_006.csv, input/plasticc_train_lightcurves_007.csv,
+  input/plasticc_train_lightcurves_008.csv, input/plasticc_train_lightcurves_009.csv,
+  input/plasticc_train_lightcurves_010.csv, input/plasticc_train_lightcurves_011.csv,
+  input/plasticc_train_lightcurves_012.csv, input/plasticc_train_lightcurves_013.csv,
+  input/plasticc_train_lightcurves_014.csv, input/plasticc_train_lightcurves_015.csv,
+  input/plasticc_train_lightcurves_016.csv, input/plasticc_train_lightcurves_017.csv,
+  input/plasticc_train_lightcurves_018.csv, input/plasticc_train_lightcurves_019.csv,
+  input/plasticc_train_lightcurves_020.csv, input/plasticc_train_lightcurves_021.csv,
+  input/plasticc_train_lightcurves_022.csv, input/plasticc_train_lightcurves_023.csv,
+  input/plasticc_train_lightcurves_024.csv, input/plasticc_train_lightcurves_025.csv,
+  input/plasticc_train_lightcurves_026.csv, input/plasticc_train_lightcurves_027.csv,
+  input/plasticc_train_lightcurves_028.csv, input/plasticc_train_lightcurves_029.csv,
+  input/plasticc_train_lightcurves_030.csv, input/plasticc_train_lightcurves_031.csv,
+  input/plasticc_train_lightcurves_032.csv, input/plasticc_train_lightcurves_033.csv,
+  input/plasticc_train_lightcurves_034.csv, input/plasticc_train_lightcurves_035.csv,
+  input/plasticc_train_lightcurves_036.csv, input/plasticc_train_lightcurves_037.csv,
+  input/plasticc_train_lightcurves_038.csv, input/plasticc_train_lightcurves_039.csv,
+  input/plasticc_train_lightcurves_040.csv, input/plasticc_train_lightcurves_041.csv,
+  input/plasticc_train_lightcurves_042.csv, input/plasticc_train_lightcurves_043.csv,
+  input/plasticc_train_lightcurves_044.csv, input/plasticc_train_lightcurves_045.csv,
+  input/plasticc_train_lightcurves_046.csv, input/plasticc_train_lightcurves_047.csv,
+  input/plasticc_train_lightcurves_048.csv, input/plasticc_train_lightcurves_049.csv,
+  input/plasticc_train_lightcurves_050.csv, input/plasticc_train_lightcurves_051.csv,
+  input/plasticc_train_lightcurves_052.csv, input/plasticc_train_lightcurves_053.csv,
+  input/plasticc_train_lightcurves_054.csv, input/plasticc_train_lightcurves_055.csv,
+  input/plasticc_train_lightcurves_056.csv, input/plasticc_train_lightcurves_057.csv,
+  input/plasticc_train_lightcurves_058.csv, input/plasticc_train_lightcurves_059.csv,
+  input/plasticc_train_lightcurves_060.csv, input/plasticc_train_lightcurves_061.csv,
+  input/plasticc_train_lightcurves_062.csv, input/plasticc_train_lightcurves_063.csv,
+  input/plasticc_train_lightcurves_064.csv, input/plasticc_train_lightcurves_065.csv,
+  input/plasticc_train_lightcurves_066.csv, input/plasticc_train_lightcurves_067.csv,
+  input/plasticc_train_lightcurves_068.csv, input/plasticc_train_lightcurves_069.csv,
+  input/plasticc_train_lightcurves_070.csv, input/plasticc_train_lightcurves_071.csv,
+  input/plasticc_train_lightcurves_072.csv, input/plasticc_train_lightcurves_073.csv,
+  input/plasticc_train_lightcurves_074.csv, input/plasticc_train_lightcurves_075.csv,
+  input/plasticc_train_lightcurves_076.csv, input/plasticc_train_lightcurves_077.csv,
+  input/plasticc_train_lightcurves_078.csv, input/plasticc_train_lightcurves_079.csv,
+  input/plasticc_train_lightcurves_080.csv, input/plasticc_train_lightcurves_081.csv,
+  input/plasticc_train_lightcurves_082.csv, input/plasticc_train_lightcurves_083.csv,
+  input/plasticc_train_lightcurves_084.csv, input/plasticc_train_lightcurves_085.csv,
+  input/plasticc_train_lightcurves_086.csv, input/plasticc_train_lightcurves_087.csv,
+  input/plasticc_train_lightcurves_088.csv, input/plasticc_train_lightcurves_089.csv,
+  input/plasticc_train_lightcurves_090.csv, input/plasticc_train_lightcurves_091.csv,
+  input/plasticc_train_lightcurves_092.csv, input/plasticc_train_lightcurves_093.csv,
+  input/plasticc_train_lightcurves_094.csv, input/plasticc_train_lightcurves_095.csv,
+  input/plasticc_train_lightcurves_096.csv, input/plasticc_train_lightcurves_097.csv,
+  input/plasticc_train_lightcurves_098.csv, input/plasticc_train_lightcurves_099.csv,
+  input/plasticc_train_lightcurves_100.csv, input/plasticc_train_lightcurves_101.csv,
+  input/plasticc_train_lightcurves_102.csv, input/plasticc_train_lightcurves_103.csv,
+  input/plasticc_train_lightcurves_104.csv, input/plasticc_train_lightcurves_105.csv,
+  input/plasticc_train_lightcurves_106.csv, input/plasticc_train_lightcurves_107.csv,
+  input/plasticc_train_lightcurves_108.csv, input/plasticc_train_lightcurves_109.csv,
+  input/plasticc_train_lightcurves_110.csv, input/plasticc_train_lightcurves_111.csv,
+  input/plasticc_train_lightcurves_112.csv, input/plasticc_train_lightcurves_113.csv,
+  input/plasticc_train_lightcurves_114.csv, input/plasticc_train_lightcurves_115.csv,
+  input/plasticc_train_lightcurves_116.csv, input/plasticc_train_lightcurves_117.csv,
+  input/plasticc_train_lightcurves_118.csv, input/plasticc_train_lightcurves_119.csv,
+  input/plasticc_train_lightcurves_120.csv, input/plasticc_train_lightcurves_121.csv,
+  input/plasticc_train_lightcurves_122.csv, input/plasticc_train_lightcurves_123.csv,
+  input/plasticc_train_lightcurves_124.csv, input/plasticc_train_lightcurves_125.csv,
+  input/plasticc_train_lightcurves_126.csv, input/plasticc_train_lightcurves_127.csv,
+  input/plasticc_train_lightcurves_128.csv, input/plasticc_train_lightcurves_129.csv,
+  input/plasticc_train_lightcurves_130.csv, input/plasticc_train_lightcurves_131.csv,
+  input/plasticc_train_lightcurves_132.csv, input/plasticc_train_lightcurves_133.csv,
+  input/plasticc_train_lightcurves_134.csv, input/plasticc_train_lightcurves_135.csv,
+  input/plasticc_train_lightcurves_136.csv, input/plasticc_train_lightcurves_137.csv,
+  input/plasticc_train_lightcurves_138.csv, input/plasticc_train_lightcurves_139.csv,
+  input/plasticc_train_lightcurves_140.csv, input/plasticc_train_lightcurves_141.csv,
+  input/plasticc_train_lightcurves_142.csv, input/plasticc_train_lightcurves_143.csv,
+  input/plasticc_train_lightcurves_144.csv]
+metadata_paths: [input/plasticc_train_metadata_000.csv, input/plasticc_train_metadata_001.csv,
+  input/plasticc_train_metadata_002.csv, input/plasticc_train_metadata_003.csv, input/plasticc_train_metadata_004.csv,
+  input/plasticc_train_metadata_005.csv, input/plasticc_train_metadata_006.csv, input/plasticc_train_metadata_007.csv,
+  input/plasticc_train_metadata_008.csv, input/plasticc_train_metadata_009.csv, input/plasticc_train_metadata_010.csv,
+  input/plasticc_train_metadata_011.csv, input/plasticc_train_metadata_012.csv, input/plasticc_train_metadata_013.csv,
+  input/plasticc_train_metadata_014.csv, input/plasticc_train_metadata_015.csv, input/plasticc_train_metadata_016.csv,
+  input/plasticc_train_metadata_017.csv, input/plasticc_train_metadata_018.csv, input/plasticc_train_metadata_019.csv,
+  input/plasticc_train_metadata_020.csv, input/plasticc_train_metadata_021.csv, input/plasticc_train_metadata_022.csv,
+  input/plasticc_train_metadata_023.csv, input/plasticc_train_metadata_024.csv, input/plasticc_train_metadata_025.csv,
+  input/plasticc_train_metadata_026.csv, input/plasticc_train_metadata_027.csv, input/plasticc_train_metadata_028.csv,
+  input/plasticc_train_metadata_029.csv, input/plasticc_train_metadata_030.csv, input/plasticc_train_metadata_031.csv,
+  input/plasticc_train_metadata_032.csv, input/plasticc_train_metadata_033.csv, input/plasticc_train_metadata_034.csv,
+  input/plasticc_train_metadata_035.csv, input/plasticc_train_metadata_036.csv, input/plasticc_train_metadata_037.csv,
+  input/plasticc_train_metadata_038.csv, input/plasticc_train_metadata_039.csv, input/plasticc_train_metadata_040.csv,
+  input/plasticc_train_metadata_041.csv, input/plasticc_train_metadata_042.csv, input/plasticc_train_metadata_043.csv,
+  input/plasticc_train_metadata_044.csv, input/plasticc_train_metadata_045.csv, input/plasticc_train_metadata_046.csv,
+  input/plasticc_train_metadata_047.csv, input/plasticc_train_metadata_048.csv, input/plasticc_train_metadata_049.csv,
+  input/plasticc_train_metadata_050.csv, input/plasticc_train_metadata_051.csv, input/plasticc_train_metadata_052.csv,
+  input/plasticc_train_metadata_053.csv, input/plasticc_train_metadata_054.csv, input/plasticc_train_metadata_055.csv,
+  input/plasticc_train_metadata_056.csv, input/plasticc_train_metadata_057.csv, input/plasticc_train_metadata_058.csv,
+  input/plasticc_train_metadata_059.csv, input/plasticc_train_metadata_060.csv, input/plasticc_train_metadata_061.csv,
+  input/plasticc_train_metadata_062.csv, input/plasticc_train_metadata_063.csv, input/plasticc_train_metadata_064.csv,
+  input/plasticc_train_metadata_065.csv, input/plasticc_train_metadata_066.csv, input/plasticc_train_metadata_067.csv,
+  input/plasticc_train_metadata_068.csv, input/plasticc_train_metadata_069.csv, input/plasticc_train_metadata_070.csv,
+  input/plasticc_train_metadata_071.csv, input/plasticc_train_metadata_072.csv, input/plasticc_train_metadata_073.csv,
+  input/plasticc_train_metadata_074.csv, input/plasticc_train_metadata_075.csv, input/plasticc_train_metadata_076.csv,
+  input/plasticc_train_metadata_077.csv, input/plasticc_train_metadata_078.csv, input/plasticc_train_metadata_079.csv,
+  input/plasticc_train_metadata_080.csv, input/plasticc_train_metadata_081.csv, input/plasticc_train_metadata_082.csv,
+  input/plasticc_train_metadata_083.csv, input/plasticc_train_metadata_084.csv, input/plasticc_train_metadata_085.csv,
+  input/plasticc_train_metadata_086.csv, input/plasticc_train_metadata_087.csv, input/plasticc_train_metadata_088.csv,
+  input/plasticc_train_metadata_089.csv, input/plasticc_train_metadata_090.csv, input/plasticc_train_metadata_091.csv,
+  input/plasticc_train_metadata_092.csv, input/plasticc_train_metadata_093.csv, input/plasticc_train_metadata_094.csv,
+  input/plasticc_train_metadata_095.csv, input/plasticc_train_metadata_096.csv, input/plasticc_train_metadata_097.csv,
+  input/plasticc_train_metadata_098.csv, input/plasticc_train_metadata_099.csv, input/plasticc_train_metadata_100.csv,
+  input/plasticc_train_metadata_101.csv, input/plasticc_train_metadata_102.csv, input/plasticc_train_metadata_103.csv,
+  input/plasticc_train_metadata_104.csv, input/plasticc_train_metadata_105.csv, input/plasticc_train_metadata_106.csv,
+  input/plasticc_train_metadata_107.csv, input/plasticc_train_metadata_108.csv, input/plasticc_train_metadata_109.csv,
+  input/plasticc_train_metadata_110.csv, input/plasticc_train_metadata_111.csv, input/plasticc_train_metadata_112.csv,
+  input/plasticc_train_metadata_113.csv, input/plasticc_train_metadata_114.csv, input/plasticc_train_metadata_115.csv,
+  input/plasticc_train_metadata_116.csv, input/plasticc_train_metadata_117.csv, input/plasticc_train_metadata_118.csv,
+  input/plasticc_train_metadata_119.csv, input/plasticc_train_metadata_120.csv, input/plasticc_train_metadata_121.csv,
+  input/plasticc_train_metadata_122.csv, input/plasticc_train_metadata_123.csv, input/plasticc_train_metadata_124.csv,
+  input/plasticc_train_metadata_125.csv, input/plasticc_train_metadata_126.csv, input/plasticc_train_metadata_127.csv,
+  input/plasticc_train_metadata_128.csv, input/plasticc_train_metadata_129.csv, input/plasticc_train_metadata_130.csv,
+  input/plasticc_train_metadata_131.csv, input/plasticc_train_metadata_132.csv, input/plasticc_train_metadata_133.csv,
+  input/plasticc_train_metadata_134.csv, input/plasticc_train_metadata_135.csv, input/plasticc_train_metadata_136.csv,
+  input/plasticc_train_metadata_137.csv, input/plasticc_train_metadata_138.csv, input/plasticc_train_metadata_139.csv,
+  input/plasticc_train_metadata_140.csv, input/plasticc_train_metadata_141.csv, input/plasticc_train_metadata_142.csv,
+  input/plasticc_train_metadata_143.csv, input/plasticc_train_metadata_144.csv]
 mode: train
 num_epochs: 400
 num_mjd_bins: 180
 num_wavelength_bins: 32
 output_path: scone/output_dir
 save_to_json: true
-sn_type_id_to_name:
-  42: SNII
-  52: SNIax
-  62: SNIbc
-  64: KN
-  67: SNIa-91bg
-  90: SNIa
-  95: SLSN-1
+sn_type_id_to_name: {42: SNII, 52: SNIax, 62: SNIbc, 64: KN, 67: SNIa-91bg, 90: SNIa,
+  95: SLSN-1}
 train_proportion: 0.8
 trained_model: /path/to/trained/model
 val_proportion: 0.1

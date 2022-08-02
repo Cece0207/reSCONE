@@ -138,21 +138,22 @@ class CreateHeatmapsBase(abc.ABC):
 
                     predictions, prediction_errs = self._get_predictions_heatmap(gp, mjd_range, milkyway_ebv)
                     heatmap = np.dstack((predictions, prediction_errs))
-                    import matplotlib.pylab as plt
-                    plt.imshow(predictions)
-                    plt.show()
-                    plt.imshow(prediction_errs)
-                    plt.show()
-                    for f in np.unique(sn_lcdata['passband']):
-
-                        thissn_lcdata = sn_lcdata[np.isin(sn_lcdata["passband"], [f])]
-                        plt.errorbar(thissn_lcdata['mjd'], thissn_lcdata['flux'], yerr=thissn_lcdata['flux_err'],
-                                     fmt='o', alpha=0.5, label="{}".format(f))
-                        plt.xlim(mjd_range)
-                        plt.xlabel("mjd")
-                        plt.ylabel("flux")
-                    plt.legend()
-                    plt.show()
+                    if i % 1000:
+                        import matplotlib.pylab as plt
+                        plt.imshow(predictions)
+                        plt.show()
+                        plt.imshow(prediction_errs)
+                        plt.show()
+                        for f in np.unique(sn_lcdata['passband']):
+    
+                            thissn_lcdata = sn_lcdata[np.isin(sn_lcdata["passband"], [f])]
+                            plt.errorbar(thissn_lcdata['mjd'], thissn_lcdata['flux'], yerr=thissn_lcdata['flux_err'],
+                                         fmt='o', alpha=0.5, label="{}".format(f))
+                            plt.xlim(mjd_range)
+                            plt.xlabel("mjd")
+                            plt.ylabel("flux")
+                        plt.legend()
+                        plt.show()
 
                     if sn_name not in self.type_to_int_label:
                         if self.categorical:
