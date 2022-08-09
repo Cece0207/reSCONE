@@ -69,14 +69,21 @@ class CreateHeatmapsBase(abc.ABC):
         self.lcdata['passband'] = [flt.strip() for flt in self.lcdata['passband']]
         # FBB set to int
         self.lcdata_ids = np.intersect1d(self.lcdata['object_id'], metadata_ids).astype(int)
+        #print(self.lcdata_ids)
 
         # survey info
         self.band_to_wave = get_band_to_wave(survey)
 
         if self.ids_path:
+            print(self.ids_path)
             ids_file = h5py.File(self.ids_path, "r")
+            ###CCC Testing
+            #print(ids_file)
+            #print(ids_file.keys())
             # FBB replaces IDs with names
+            #print(ids_file["names"])
             self.ids = ids_file["names"][()] # turn this into a numpy array
+            #print(self.ids)
             print(f"example id {self.ids[0]}")
             ids_file.close()
 
